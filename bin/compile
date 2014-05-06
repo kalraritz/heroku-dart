@@ -3,7 +3,7 @@
 
 # fail fast
 set -e
-set -x
+#set -x
 unset GIT_DIR
 
 function message {
