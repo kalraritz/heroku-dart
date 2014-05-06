@@ -1,0 +1,8 @@
+name: basic_http_server
+author: Seth Ladd <sethladd@gmail.com>
+version: 0.0.1
+homepage: https://github.com/sethladd/dart-basic-http-server
+description: A sample command-line application
+dependencies:
+  browser: any
+  http_server: any
