@@ -36,6 +36,8 @@ mkdir -p "$1" "$2"
 BUILD_DIR=$(cd "$1/" && pwd)
 CACHE_DIR=$(cd "$2/" && pwd)
 
+message `ls -l $BUILD_DIR`
+
 # this variable is used by pub to determine the package install location
 PUB_CACHE="/app/pub-cache"
 export PUB_CACHE
